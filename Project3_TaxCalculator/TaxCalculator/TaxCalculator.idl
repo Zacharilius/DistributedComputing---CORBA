@@ -1,0 +1,6 @@
+module TaxCalculator {
+	interface Tax {
+		double getTax(in double cost);
+		oneway void shutdown();
+	};
+};

@@ -1,0 +1,10 @@
+module Inter
+{
+	interface DBClientListener
+	{
+		void doWork();
+	};
+	interface DBControlServer{
+		void requestConnect(in DBClientListener dbc);
+	};
+};

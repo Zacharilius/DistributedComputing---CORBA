@@ -1,0 +1,5 @@
+module Tracker {
+	interface Time {
+		string getTime();
+	};
+};

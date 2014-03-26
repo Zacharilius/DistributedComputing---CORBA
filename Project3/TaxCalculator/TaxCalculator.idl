@@ -1,0 +1,7 @@
+module TaxCalculator {
+	interface Tax {
+		double getTax(in double cost);
+		string getClientID(in long clientID);
+		oneway void shutdown();
+	};
+};
